@@ -1,7 +1,7 @@
 const express = require('express')
 const request = require('request-promise')
 const app = express()
-const port = 3000 || process.env.PORT
+const port  = process.env.PORT || 4000
 
 // const api_key = "1a256cf5aa35208fec860a66c187d4e9"
 
