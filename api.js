@@ -14,7 +14,7 @@ const cx = "6012b95f04c67305b"
 app.get("/", (req, res) => {
     res.send("hello world")
 })
-
+smp - google - custom - search - api
 app.get("/search/:query", async (req, res) => {
     try {
         const { query } = req.params
